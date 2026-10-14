@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShoppingList</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+  <div class="container">
+    <h1>Interactive Shopping List</h1>
+
+    <div class="input-area">
+      <input id="itemInput" placeholder="Enter item name">
+      <input type="number" id="priceInput" placeholder="Price in KSh" min="0">
+      <button id="addBtn">Add Item</button>
+     
+    </div>
+
+<p id="totalDisplay">Total: KSh 0</p>
+
+    <ul id="shoppingList"></ul>
+
+    <button id="clearBtn">Clear List</button>
+  </div>
+   <script src="main.js"></script>
+</body>
+</html>
